@@ -10,6 +10,8 @@ Exercício com React sobre Props e Componentes
 
 [ ] State
 
-[ ] Funções
+[ ] Array
+
+[ ] Maps
 
 [ ] Deploy na sua Branch

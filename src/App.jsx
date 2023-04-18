@@ -1,12 +1,18 @@
-import { Exemplo } from './components/Exemplo'
+import { Home } from './components/home/home'
+import { Posts } from './components/posts/Posts'
 
 import './Global.css'
 
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
-      <Exemplo />
+      <Home/>
+      <div className='cor_fundo'>
+        <Posts />
+        <Posts />
+        <Posts />
+        <Posts />
+      </div>
     </div>
   )
 }

@@ -1,33 +1,33 @@
 .post {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-    max-width: 500px;
-    color: rgba(255, 255, 255, 0.735);
-    text-align: justify;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1em;
+	max-width: 500px;
+	color: rgba(255, 255, 255, 0.735);
+	text-align: justify;
 }
 
 .box_img {
-    position: relative;
+	position: relative;
 }
 
 .img {
-    border-radius: 1em;
+	border-radius: 1em;
 }
 
 .icon {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    transition: .3s;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	transition: 0.3s;
 }
 
 .icon:hover {
-    cursor: pointer;
-    color: tomato;
+	cursor: pointer;
+	color: tomato;
 }
 
 .line {
-    color: white;
+	color: white;
 }

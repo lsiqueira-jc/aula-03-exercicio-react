@@ -4,9 +4,9 @@
 
 Exercício com React sobre Props e Componentes
 
-[ ] Criar o Component de Posts
+[X] Criar o Component de Posts
 
-[ ] Criar uma Branch com Nome e Sobrenome ex: luizsiqueira
+[X] Criar uma Branch com Nome e Sobrenome ex: luizsiqueira
 
 [ ] State
 
@@ -14,4 +14,4 @@ Exercício com React sobre Props e Componentes
 
 [ ] Maps
 
-[ ] Deploy na sua Branch
+[X] Deploy na sua Branch

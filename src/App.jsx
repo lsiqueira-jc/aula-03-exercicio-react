@@ -1,4 +1,6 @@
-import { Exemplo } from './components/Exemplo'
+import  Exemplo  from './components/Exemplo/Exemplo'
+import ImageList from './components/List-img/List-img'
+import  Post  from './components/Post'
 
 import './Global.css'
 
@@ -7,6 +9,9 @@ function App() {
     <div>
       <h1>Hello world</h1>
       <Exemplo />
+      <Post />
+      <ImageList />
+      
     </div>
   )
 }

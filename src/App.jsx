@@ -3,6 +3,9 @@ import { Post } from './components/Post'
 
 import './Global.css'
 
+
+
+
 const  ultimas = [
   {
     id:1,
@@ -25,6 +28,11 @@ function App() {
   return (
     <div>
       <h1>Lista de Posts</h1>
+
+      <Post 
+        imagem="https://imagens.ne10.uol.com.br/veiculos/_midias/png/2023/04/17/260x200/1_domitila__amanda_e_larissa_estao_no_16___paredao_do_bbb_23-22886751.png"
+        descricao="Teste"
+      />
 
       {
         ultimas.map(post =>{

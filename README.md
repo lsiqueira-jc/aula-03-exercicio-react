@@ -8,7 +8,7 @@ Exercício com React sobre Props e Componentes
 
 [ x ] Criar uma Branch com Nome e Sobrenome ex: luizsiqueira
 
-[ ] State
+[ x ] State
 
 [ x ] Json
 

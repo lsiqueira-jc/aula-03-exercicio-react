@@ -4,14 +4,32 @@
 
 Exercício com React sobre Props e Componentes
 
-[ ] Criar o Component de Posts
+[ x ] Criar o Component de Posts
 
-[ ] Criar uma Branch com Nome e Sobrenome ex: luizsiqueira
+[ x ] Criar uma Branch com Nome e Sobrenome ex: luizsiqueira
 
-[ ] State
+[ x ] State
 
-[ ] Array
+[ x ] Json
 
-[ ] Maps
+[ x ] Maps
 
-[ ] Deploy na sua Branch
+[ x ] Commit na sua Branch
+
+## Passos para Rodar o projeto
+
+`git clone https://github.com/lsiqueira-jc/aula-03-exercicio-react.git `
+
+`yarn install`
+
+`yarn dev`
+
+`git checkout -B seuNome `
+
+### Enviando o commit
+
+`git add . `
+
+`git commit -m "descrição" `
+
+`git push origin suaBranch `

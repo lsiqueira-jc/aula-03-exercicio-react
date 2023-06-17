@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './Post.module.css';
 import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
 
-const Posts = ({ url_img, text }) => {
+const Posts = ({ url_img, text, desc }) => {
 	const [isHovered, setIsHovered] = useState(false);
 
 	const onMouseEnter = () => {
@@ -28,7 +28,8 @@ const Posts = ({ url_img, text }) => {
 					{isHovered ? <AiFillHeart size={40} /> : <AiOutlineHeart size={40} />}
 				</span>
 			</div>
-			<p>{text}</p>
+			<h2 className={styles.title}>{text}</h2>
+			<p>{desc}</p>
 			<hr />
 		</div>
 	);

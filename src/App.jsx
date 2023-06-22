@@ -29,20 +29,21 @@ import './Global.css'
 function App() {
   const [ultimas, setUltimas] = useState([]);
 
+ async function getNoticias(){
+    await api
+     .get("/listar")
+     .then((response) => 
+     
+     setUltimas(response.data)
+     )
+     .catch((err) => {
+       console.error("ops! ocorreu um erro" + err);
+     });
+
+ }
+
   useEffect(() => {
-    async function getNoticias(){
-       await api
-        .get("/listar")
-        .then((response) => 
-        
-        setUltimas(response.data.data)
-        )
-        .catch((err) => {
-          console.error("ops! ocorreu um erro" + err);
-        });
-    }
-    getNoticias();
-   
+      getNoticias(); 
   }, []);
 
 
@@ -65,3 +66,5 @@ function App() {
 }
 
 export default App
+
+
